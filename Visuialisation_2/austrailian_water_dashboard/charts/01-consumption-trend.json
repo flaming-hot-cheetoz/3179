@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "../australia_water_consumption.csv", "format": { "type": "csv" } },
+  "transform": [
+    { "filter": "datum.dataset === 'national_timeseries' && datum.metric === 'Total water consumption (industries + households)'" },
+    { "calculate": "toNumber(datum.value)", "as": "consumption" }
+  ],
+  "width": "container",
+  "height": 260,
+  "layer": [
+    {
+      "mark": { "type": "line", "interpolate": "monotone", "strokeWidth": 3, "color": "#238b7e" },
+      "encoding": {
+        "x": { "field": "year", "type": "ordinal", "sort": null, "title": null, "axis": { "labelAngle": 0, "labelOverlap": false } },
+        "y": { "field": "consumption", "type": "quantitative", "title": "Water consumption (GL)", "scale": { "domain": [0, 19000] } },
+        "tooltip": [
+          { "field": "year", "type": "ordinal", "title": "Year" },
+          { "field": "consumption", "type": "quantitative", "title": "Consumption (GL)", "format": ",.0f" }
+        ]
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.year === '2023-24'" }],
+      "mark": { "type": "point", "filled": true, "size": 75, "color": "#e98968" },
+      "encoding": {
+        "x": { "field": "year", "type": "ordinal", "sort": null },
+        "y": { "field": "consumption", "type": "quantitative" },
+        "tooltip": [
+          { "field": "year", "type": "ordinal", "title": "Year" },
+          { "field": "consumption", "type": "quantitative", "title": "Consumption (GL)", "format": ",.0f" }
+        ]
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.year === '2023-24'" }],
+      "mark": { "type": "text", "align": "left", "dx": 9, "dy": -10, "fontSize": 11, "fontWeight": 700, "color": "#155d56" },
+      "encoding": {
+        "x": { "field": "year", "type": "ordinal", "sort": null },
+        "y": { "field": "consumption", "type": "quantitative" },
+        "text": { "value": "Decade high" }
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+  }
+}
+
