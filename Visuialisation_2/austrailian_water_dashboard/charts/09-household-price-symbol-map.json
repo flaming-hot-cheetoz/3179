@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 350,
+  "projection": { "type": "mercator", "center": [134, -27], "scale": 430 },
+  "layer": [
+    {
+      "data": { "url": "data/australian-states.geojson", "format": { "type": "json", "property": "features" } },
+      "transform": [
+        {
+          "lookup": "properties.shapeName",
+          "from": {
+            "data": { "url": "data/state-map-values.csv", "format": { "type": "csv" } },
+            "key": "region",
+            "fields": ["household_price_per_kL"]
+          },
+          "as": ["household_price_per_kL"]
+        }
+      ],
+      "mark": { "type": "geoshape", "fill": "#e6eee7", "stroke": "#fffefa", "strokeWidth": 1.5 }
+    },
+    {
+      "data": { "url": "data/state-map-values.csv", "format": { "type": "csv" } },
+      "mark": { "type": "circle", "opacity": 0.82, "color": "#e98968", "stroke": "#fffefa", "strokeWidth": 1.5 },
+      "encoding": {
+        "longitude": { "field": "longitude", "type": "quantitative" },
+        "latitude": { "field": "latitude", "type": "quantitative" },
+        "size": {
+          "field": "household_price_per_kL",
+          "type": "quantitative",
+          "title": "Average price ($/kL)",
+          "scale": { "domain": [2, 5.5], "range": [60, 320] },
+          "legend": { "format": ".1f" }
+        },
+        "tooltip": [
+          { "field": "region", "type": "nominal", "title": "State or territory" },
+          { "field": "household_price_per_kL", "type": "quantitative", "title": "Average price ($/kL)", "format": ".2f" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+  }
+}
