@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "../australia_water_consumption.csv", "format": { "type": "csv" } },
+  "transform": [
+    { "filter": "datum.dataset === 'state_households' && datum.metric === 'Average water use per household'" },
+    { "calculate": "toNumber(datum.value)", "as": "use_kL" }
+  ],
+  "width": "container",
+  "height": 270,
+  "mark": { "type": "rect", "cornerRadius": 3, "stroke": "#fffefa", "strokeWidth": 2 },
+  "encoding": {
+    "x": { "field": "year", "type": "ordinal", "sort": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24"], "title": null, "axis": { "labelAngle": -35 } },
+    "y": { "field": "region", "type": "nominal", "sort": ["New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Northern Territory", "Australian Capital Territory"], "title": null, "axis": { "labelLimit": 150 } },
+    "color": { "field": "use_kL", "type": "quantitative", "title": "kL / household", "scale": { "scheme": "tealblues" } },
+    "tooltip": [
+      { "field": "region", "type": "nominal", "title": "State or territory" },
+      { "field": "year", "type": "ordinal", "title": "Year" },
+      { "field": "use_kL", "type": "quantitative", "title": "kL per household", "format": ",.1f" }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
+    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+  }
+}
