@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "data/state-map-values.csv", "format": { "type": "csv" } },
+  "width": "container",
+  "height": 310,
+  "layer": [
+    {
+      "mark": { "type": "rect", "cornerRadius": 8, "stroke": "#fffefa", "strokeWidth": 3 },
+      "encoding": {
+        "x": { "field": "tile_column", "type": "ordinal", "axis": null, "scale": { "padding": 0.08 } },
+        "y": { "field": "tile_row", "type": "ordinal", "axis": null, "scale": { "padding": 0.08, "reverse": true } },
+        "color": { "field": "agriculture_water_GL", "type": "quantitative", "title": "Agricultural water (GL)", "scale": { "scheme": "tealblues" } },
+        "tooltip": [
+          { "field": "region", "type": "nominal", "title": "State or territory" },
+          { "field": "agriculture_water_GL", "type": "quantitative", "title": "Water consumption (GL)", "format": ",.0f" }
+        ]
+      }
+    },
+    {
+      "mark": { "type": "text", "dy": -10, "fontSize": 12, "fontWeight": 700, "color": "#183b40" },
+      "encoding": {
+        "x": { "field": "tile_column", "type": "ordinal", "axis": null },
+        "y": { "field": "tile_row", "type": "ordinal", "axis": null, "scale": { "reverse": true } },
+        "text": { "field": "abbreviation", "type": "nominal" }
+      }
+    },
+    {
+      "mark": { "type": "text", "dy": 12, "fontSize": 12, "color": "#183b40" },
+      "encoding": {
+        "x": { "field": "tile_column", "type": "ordinal", "axis": null },
+        "y": { "field": "tile_row", "type": "ordinal", "axis": null, "scale": { "reverse": true } },
+        "text": { "field": "agriculture_water_GL", "type": "quantitative", "format": ",.0f" }
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+  }
+}
