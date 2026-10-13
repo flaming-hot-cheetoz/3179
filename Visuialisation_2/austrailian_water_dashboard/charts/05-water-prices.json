@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "../australia_water_consumption.csv", "format": { "type": "csv" } },
+  "transform": [
+    { "filter": "datum.dataset === 'national_timeseries' && datum.metric === 'Average water price' && (datum.sector === 'Households' || datum.sector === 'Industry')" },
+    { "calculate": "toNumber(datum.value)", "as": "price_per_kL" }
+  ],
+  "width": "container",
+  "height": 250,
+  "mark": { "type": "line", "point": { "filled": true, "size": 55 }, "strokeWidth": 2.5 },
+  "encoding": {
+    "x": { "field": "year", "type": "ordinal", "sort": null, "title": null, "axis": { "labelAngle": 0, "labelOverlap": false } },
+    "y": { "field": "price_per_kL", "type": "quantitative", "title": "Average price ($/kL)", "scale": { "zero": false } },
+    "color": { "field": "sector", "type": "nominal", "title": null, "scale": { "domain": ["Households", "Industry"], "range": ["#238b7e", "#e98968"] } },
+    "tooltip": [
+      { "field": "year", "type": "ordinal", "title": "Year" },
+      { "field": "sector", "type": "nominal", "title": "Sector" },
+      { "field": "price_per_kL", "type": "quantitative", "title": "$/kL", "format": ".2f" }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
+    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+  }
+}
