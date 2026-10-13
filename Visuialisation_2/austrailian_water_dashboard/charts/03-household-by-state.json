@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "../australia_water_consumption.csv", "format": { "type": "csv" } },
+  "transform": [
+    { "filter": "datum.dataset === 'state_households' && datum.metric === 'Average water use per household' && datum.year === '2023-24'" },
+    { "calculate": "toNumber(datum.value)", "as": "use_kL" }
+  ],
+  "width": "container",
+  "height": 270,
+  "mark": { "type": "bar", "cornerRadiusEnd": 4, "color": "#238b7e" },
+  "encoding": {
+    "y": { "field": "region", "type": "nominal", "sort": "-x", "title": null, "axis": { "labelLimit": 180 } },
+    "x": { "field": "use_kL", "type": "quantitative", "title": "Average household use (kL)" },
+    "tooltip": [
+      { "field": "region", "type": "nominal", "title": "State or territory" },
+      { "field": "use_kL", "type": "quantitative", "title": "kL per household", "format": ",.1f" }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+  }
+}
