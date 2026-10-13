@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ten charts reveal how Australia's water use has changed and how it differs by state.">
+  <title>Every Drop Tells a Bigger Story | Australia's Water</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">A MALAYSIAN READER'S GUIDE TO AUSTRALIAN WATER · 2014–15 TO 2023–24</p>
+      <h1>Every drop tells<br><span>a bigger story.</span></h1>
+      <p class="intro">Australia's recorded water consumption reached a decade high in 2023–24. Follow the water from national demand to household use in each state—and see what changed along the way.</p>
+      <div class="hero-rule"><span></span><span></span><span></span></div>
+    </header>
+
+    <section class="summary" aria-label="Latest national snapshot">
+      <article class="summary-card">
+        <p class="summary-label">TOTAL WATER CONSUMPTION</p>
+        <p class="summary-value" id="kpi-consumption">Loading…</p>
+        <p class="summary-note">Australia · 2023–24 · GL = billion litres</p>
+      </article>
+      <article class="summary-card">
+        <p class="summary-label">AREA-AVERAGE RAINFALL</p>
+        <p class="summary-value" id="kpi-rainfall">Loading…</p>
+        <p class="summary-note">Australia · 2023–24</p>
+      </article>
+      <article class="summary-card">
+        <p class="summary-label">HOUSEHOLD WATER USE</p>
+        <p class="summary-value" id="kpi-households">Loading…</p>
+        <p class="summary-note">Australia · 2023–24 · kL = 1,000 litres</p>
+      </article>
+    </section>
+
+    <section class="story-intro" aria-labelledby="story-title">
+      <p class="eyebrow">THE STORY IN THREE STEPS</p>
+      <h2 id="story-title">From a national high to local differences</h2>
+      <div class="story-grid">
+        <article class="story-step">
+          <span class="story-step-number">01 / DEMAND</span>
+          <h3>Use has rebounded</h3>
+          <p>Australia used 17,223 GL in 2023–24—the highest value in this ten-year series. That is a 12.9% rise on 2022–23 and 7.3% above 2014–15.</p>
+        </article>
+        <article class="story-step">
+          <span class="story-step-number">02 / SECTORS</span>
+          <h3>Agriculture leads</h3>
+          <p>Agriculture accounted for about 73% of the water distributed to the listed sectors in 2023–24. Distributed use is not the same measure as total water consumption.</p>
+        </article>
+        <article class="story-step">
+          <span class="story-step-number">03 / HOUSEHOLDS</span>
+          <h3>State averages differ</h3>
+          <p>Average household use ranged from 155 kL in Tasmania to 330 kL in the Northern Territory. These are state averages—not a prediction for every household.</p>
+        </article>
+      </div>
+      <p class="audience-note"><strong>For readers in Malaysia:</strong> this is an Australian case study, not a Malaysia–Australia comparison. One kilolitre (kL) equals 1,000 litres; one gigalitre (GL) equals one billion litres. Hover over charts for exact values.</p>
+    </section>
+
+    <section class="section-heading">
+      <p class="eyebrow">THE NATIONAL PICTURE</p>
+      <h2>First, the national picture</h2>
+      <p>Ten years of consumption, sector use and prices show what changed before we zoom in on households and states.</p>
+    </section>
+
+    <section class="chart-grid" aria-label="Australian water visualisations">
+      <article class="chart-card chart-card-wide">
+        <div class="chart-heading">
+          <span class="chart-number">01</span>
+          <div><h3>Australia’s water consumption</h3><p>Total consumption by industries and households, GL</p></div>
+        </div>
+        <div id="chart-consumption" class="chart"></div>
+        <p class="chart-insight">At 17,223 GL, 2023–24 is the decade high: 12.9% above 2022–23 and 1,173 GL (7.3%) above 2014–15. The line describes change; it does not explain its causes.</p>
+      </article>
+
+      <article class="chart-card chart-card-wide">
+        <div class="chart-heading">
+          <span class="chart-number">02</span>
+          <div><h3>Who uses distributed water?</h3><p>Annual distributed water use by sector, GL</p></div>
+        </div>
+        <div id="chart-sectors" class="chart"></div>
+        <p class="chart-insight">Agriculture received 7,618 GL of distributed water in 2023–24—about 73% of the listed sector total. From 2022–23, the ABS replaced survey-based irrigation estimates with satellite-derived estimates; read the recent agricultural trend with care, particularly for Queensland, South Australia and Tasmania.</p>
+      </article>
+
+      <article class="chart-card">
+        <div class="chart-heading">
+          <span class="chart-number">03</span>
+          <div><h3>Household use by state</h3><p>Average household use in 2023–24, kL</p></div>
+        </div>
+        <div id="chart-state-ranking" class="chart"></div>
+        <p class="chart-insight">The Northern Territory average (329.6 kL) was about 2.1 times Tasmania’s (155.0 kL). Household-use figures exclude self-extracted water such as rainwater and bores.</p>
+      </article>
+
+      <article class="chart-card">
+        <div class="chart-heading">
+          <span class="chart-number">04</span>
+          <div><h3>Household use, year by year</h3><p>Average kL per household · darker means more</p></div>
+        </div>
+        <div id="chart-heatmap" class="chart"></div>
+        <p class="chart-insight">Each cell represents a state’s annual household average. Follow a row to compare years, or a column to compare states; darker cells indicate higher use.</p>
+      </article>
+
+      <article class="chart-card chart-card-wide">
+        <div class="chart-heading">
+          <span class="chart-number">05</span>
+          <div><h3>Household and industry water prices</h3><p>National average price per kilolitre, $/kL</p></div>
+        </div>
+        <div id="chart-prices" class="chart"></div>
+        <p class="chart-insight">These are implicit average prices (expenditure divided by water volume), not a household’s full bill or a published tariff. The vertical axis starts above zero to make small changes visible.</p>
+      </article>
+
+      <article class="chart-card">
+        <div class="chart-heading">
+          <span class="chart-number">06</span>
+          <div><h3>Use and price across states</h3><p>Household average use vs. price · 2023–24</p></div>
+        </div>
+        <div id="chart-state-scatter" class="chart"></div>
+        <p class="chart-insight">Each point is one state or territory. The chart places average price beside average household use; it is a comparison, not evidence that price causes a household to use more or less.</p>
+      </article>
+
+      <article class="chart-card">
+        <div class="chart-heading">
+          <span class="chart-number">07</span>
+          <div><h3>Where distributed water goes</h3><p>Share of national use by sector · 2023–24</p></div>
+        </div>
+        <div id="chart-sector-share" class="chart"></div>
+        <p class="chart-insight">This 2023–24 snapshot makes the sector balance easy to compare: agriculture takes the largest share of distributed water. Hover for volumes in GL. Agricultural estimates use the new method noted above.</p>
+      </article>
+
+      <article class="chart-card chart-card-wide map-card">
+        <div class="chart-heading">
+          <span class="chart-number">08</span>
+          <div><h3>Household use across the map</h3><p>Choropleth · average kL per household · 2023–24</p></div>
+        </div>
+        <div id="chart-choropleth" class="chart"></div>
+        <p class="chart-insight">Colour encodes the average household use in each state. The map is useful for geographic patterns; use the ranking above for precise comparisons.</p>
+      </article>
+
+      <article class="chart-card chart-card-wide map-card">
+        <div class="chart-heading">
+          <span class="chart-number">09</span>
+          <div><h3>What households pay</h3><p>Proportional symbols · average $/kL · 2023–24</p></div>
+        </div>
+        <div id="chart-symbol-map" class="chart"></div>
+        <p class="chart-insight">Larger circles indicate a higher implicit average water price per kL. The circle marks are positioned approximately within each state; prices are not household tariffs.</p>
+      </article>
+
+      <article class="chart-card chart-card-wide map-card">
+        <div class="chart-heading">
+          <span class="chart-number">10</span>
+          <div><h3>Agricultural water by state</h3><p>Tile cartogram · total water consumption, GL · 2023–24</p></div>
+        </div>
+        <div id="chart-tile-map" class="chart"></div>
+        <p class="chart-insight">New South Wales recorded 4,679 GL—about 40% of the 11,760 GL total across the eight listed jurisdictions. Tiles have equal size; colour and labels encode the data, not tile area. GL = billion litres.</p>
+      </article>
+    </section>
+
+    <section class="method-section" aria-labelledby="method-title">
+      <p class="eyebrow">WHY THESE CHARTS?</p>
+      <h2 id="method-title">A visual guide to the measures</h2>
+      <div class="method-grid">
+        <p><strong>Why:</strong> Help a general reader understand how Australian water use has changed, which sectors account for distributed supply, and how household averages differ across states.</p>
+        <p><strong>What:</strong> ABS Water Account series supplied in the CSV, paired with state boundary geometry. The CSV’s older-edition records are excluded where its notes warn that methods are not comparable.</p>
+        <p><strong>How:</strong> Trend and sector charts establish the story; a heatmap, scatterplot and three distinct maps support different comparisons. Hover tooltips reveal exact figures without turning the page into an analysis tool.</p>
+      </div>
+      <p class="method-note">“Distributed water use” is water supplied through distribution systems and is not interchangeable with “total water consumption.” Household use excludes self-extracted water. Read each chart’s unit and note before comparing measures.</p>
+    </section>
+
+    <footer class="footer">
+      <p><strong>Data sources:</strong> Australian Bureau of Statistics (ABS), <a href="https://www.abs.gov.au/statistics/environment/environmental-accounts/water-account-australia/2023-24" target="_blank" rel="noreferrer"><em>Water Account, Australia 2023–24</em></a> (released 11 December 2025; the latest account included in the supplied CSV); and ABS <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/STE_2021_AUST_SHP_GDA2020.zip" target="_blank" rel="noreferrer">ASGS 2021 state/territory boundaries</a>, distributed by <a href="https://www.geoboundaries.org/api/current/gbOpen/AUS/ADM1/" target="_blank" rel="noreferrer">GeoBoundaries</a> (dataset AUS-ADM1-82085004, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>). The geometry is simplified for faster loading; the “Other Territories” feature is omitted because the CSV has no matching state measure. ABS measures are joined to boundaries by state name. The small map-value CSV is derived from the supplied ABS observations and adds map coordinates/layout positions.</p>
+      <p><strong>Map projections and idioms:</strong> the two geographic maps use Mercator projection; the third is a tile cartogram with equal-sized state tiles. Boundary geometry provides context, not an area-based statistical measure.</p>
+      <p><strong>Authorship:</strong> Vansh Vora · 6 October 2026. <strong>AI acknowledgement:</strong> AI tools assisted with code, chart specifications and editorial wording; no generated images or fabricated observations are used.</p>
+      <p class="source">Typography: DM Sans and Manrope, served by <a href="https://fonts.google.com/" target="_blank" rel="noreferrer">Google Fonts</a>. The charts are authored with Vega-Lite.</p>
+      <p class="source">Each chart’s human-readable Vega-Lite JSON specification:</p>
+      <ol class="spec-links">
+        <li><a href="charts/01-consumption-trend.json">01 · Consumption trend</a></li>
+        <li><a href="charts/02-sector-use.json">02 · Sector use</a></li>
+        <li><a href="charts/03-household-by-state.json">03 · Household use by state</a></li>
+        <li><a href="charts/04-household-heatmap.json">04 · Household-use heatmap</a></li>
+        <li><a href="charts/05-water-prices.json">05 · Water prices</a></li>
+        <li><a href="charts/06-state-use-price.json">06 · State use and price</a></li>
+        <li><a href="charts/07-distributed-water-share.json">07 · Distributed water share</a></li>
+        <li><a href="charts/08-household-choropleth.json">08 · Household-use choropleth</a></li>
+        <li><a href="charts/09-household-price-symbol-map.json">09 · Price symbol map</a></li>
+        <li><a href="charts/10-agricultural-tile-map.json">10 · Agricultural tile map</a></li>
+      </ol>
+      <p class="source">Use a local web server (such as VS Code Live Server) to preview this page.</p>
+    </footer>
+  </main>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
