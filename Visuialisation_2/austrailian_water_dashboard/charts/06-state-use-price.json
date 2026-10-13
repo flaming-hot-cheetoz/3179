@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "data/state-map-values.csv", "format": { "type": "csv" } },
+  "width": "container",
+  "height": 280,
+  "mark": { "type": "circle", "opacity": 0.82, "stroke": "#fffefa", "strokeWidth": 1.5, "size": 180 },
+  "encoding": {
+    "x": { "field": "household_price_per_kL", "type": "quantitative", "title": "Average water price ($/kL)", "scale": { "zero": false } },
+    "y": { "field": "household_use_kL", "type": "quantitative", "title": "Use (kL / household)", "scale": { "zero": false } },
+    "color": { "field": "region", "type": "nominal", "title": "State or territory", "scale": { "scheme": "tableau10" } },
+    "tooltip": [
+      { "field": "region", "type": "nominal", "title": "State or territory" },
+      { "field": "household_price_per_kL", "type": "quantitative", "title": "Price ($/kL)", "format": ".2f" },
+      { "field": "household_use_kL", "type": "quantitative", "title": "Use (kL / household)", "format": ",.1f" }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "view": { "stroke": null },
+    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
+    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 10, "titleFontSize": 10 }
+  }
+}
