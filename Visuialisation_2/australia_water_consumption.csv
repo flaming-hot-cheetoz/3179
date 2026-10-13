@@ -1,0 +1,307 @@
+dataset,region,year,sector,metric,value,unit,note
+national_timeseries,Australia,2014-15,All,Area-average rainfall,416.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,All,Area-average rainfall,453.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,All,Area-average rainfall,580.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,All,Area-average rainfall,433.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,All,Area-average rainfall,347.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,All,Area-average rainfall,347.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,All,Area-average rainfall,513.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,All,Area-average rainfall,509.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,All,Area-average rainfall,611.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,All,Area-average rainfall,535.0,mm,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,All,Total water consumption (industries + households),16050.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,All,Total water consumption (industries + households),14801.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,All,Total water consumption (industries + households),15634.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,All,Total water consumption (industries + households),16640.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,All,Total water consumption (industries + households),14181.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,All,Total water consumption (industries + households),12148.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,All,Total water consumption (industries + households),14891.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,All,Total water consumption (industries + households),15751.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,All,Total water consumption (industries + households),15258.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,All,Total water consumption (industries + households),17223.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,"Agriculture, forestry and fishing",Distributed water use,7414.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,"Agriculture, forestry and fishing",Distributed water use,6332.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,"Agriculture, forestry and fishing",Distributed water use,7521.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,"Agriculture, forestry and fishing",Distributed water use,8108.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,"Agriculture, forestry and fishing",Distributed water use,5759.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,"Agriculture, forestry and fishing",Distributed water use,4314.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,"Agriculture, forestry and fishing",Distributed water use,6820.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,"Agriculture, forestry and fishing",Distributed water use,7335.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,"Agriculture, forestry and fishing",Distributed water use,6291.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,"Agriculture, forestry and fishing",Distributed water use,7618.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Households,Distributed water use,1691.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Households,Distributed water use,1748.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Households,Distributed water use,1724.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Households,Distributed water use,1799.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Households,Distributed water use,1813.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Households,Distributed water use,1812.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Households,Distributed water use,1804.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Households,Distributed water use,1772.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Households,Distributed water use,1753.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Households,Distributed water use,1861.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Manufacturing,Distributed water use,255.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Manufacturing,Distributed water use,246.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Manufacturing,Distributed water use,252.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Manufacturing,Distributed water use,252.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Manufacturing,Distributed water use,248.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Manufacturing,Distributed water use,262.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Manufacturing,Distributed water use,244.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Manufacturing,Distributed water use,237.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Manufacturing,Distributed water use,226.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Manufacturing,Distributed water use,235.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Mining,Distributed water use,113.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Mining,Distributed water use,100.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Mining,Distributed water use,105.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Mining,Distributed water use,125.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Mining,Distributed water use,132.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Mining,Distributed water use,147.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Mining,Distributed water use,107.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Mining,Distributed water use,107.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Mining,Distributed water use,116.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Mining,Distributed water use,132.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Other industries,Distributed water use,523.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Other industries,Distributed water use,526.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Other industries,Distributed water use,556.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Other industries,Distributed water use,600.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Other industries,Distributed water use,589.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Other industries,Distributed water use,564.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Other industries,Distributed water use,574.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Other industries,Distributed water use,594.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Other industries,Distributed water use,615.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Other industries,Distributed water use,620.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Households,Average water use per household,187.26,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Households,Average water use per household,190.37,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Households,Average water use per household,183.83,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Households,Average water use per household,188.36,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Households,Average water use per household,186.25,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Households,Average water use per household,183.03,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Households,Average water use per household,181.27,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Households,Average water use per household,175.27,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Households,Average water use per household,168.1,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Households,Average water use per household,174.22,kL/household,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Industry,Water intensity,8.13,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Industry,Water intensity,7.31,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Industry,Water intensity,7.54,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Industry,Water intensity,7.8,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Industry,Water intensity,6.49,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Industry,Water intensity,5.55,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Industry,Water intensity,6.67,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Industry,Water intensity,6.78,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Industry,Water intensity,6.34,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Industry,Water intensity,7.04,ML per $m GVA,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Industry,Average water price,0.22,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Industry,Average water price,0.29,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Industry,Average water price,0.26,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Industry,Average water price,0.27,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Industry,Average water price,0.37,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Industry,Average water price,0.41,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Industry,Average water price,0.31,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Industry,Average water price,0.31,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Industry,Average water price,0.36,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Industry,Average water price,0.35,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,Households,Average water price,3.49,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,Households,Average water price,3.46,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,Households,Average water price,3.4,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,Households,Average water price,3.38,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,Households,Average water price,3.44,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,Households,Average water price,3.52,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,Households,Average water price,3.41,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,Households,Average water price,3.43,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,Households,Average water price,3.55,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,Households,Average water price,3.71,$/kL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,All,Accessible volume in major dam storages (30 June),47498.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,All,Accessible volume in major dam storages (30 June),43022.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,All,Accessible volume in major dam storages (30 June),54187.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,All,Accessible volume in major dam storages (30 June),47922.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,All,Accessible volume in major dam storages (30 June),38226.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,All,Accessible volume in major dam storages (30 June),39388.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,All,Accessible volume in major dam storages (30 June),48747.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,All,Accessible volume in major dam storages (30 June),56728.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,All,Accessible volume in major dam storages (30 June),63029.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,All,Accessible volume in major dam storages (30 June),57931.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,"Electricity, gas, water and waste services",Self-extracted water,62115.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,"Electricity, gas, water and waste services",Self-extracted water,59368.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,"Electricity, gas, water and waste services",Self-extracted water,65368.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,"Electricity, gas, water and waste services",Self-extracted water,65678.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,"Electricity, gas, water and waste services",Self-extracted water,61201.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,"Electricity, gas, water and waste services",Self-extracted water,62781.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,"Electricity, gas, water and waste services",Self-extracted water,59750.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,"Electricity, gas, water and waste services",Self-extracted water,63041.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,"Electricity, gas, water and waste services",Self-extracted water,62378.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,"Electricity, gas, water and waste services",Self-extracted water,52561.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,"Water supply, sewerage and drainage",Groundwater extracted,511.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,"Water supply, sewerage and drainage",Groundwater extracted,583.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,"Water supply, sewerage and drainage",Groundwater extracted,567.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,"Water supply, sewerage and drainage",Groundwater extracted,575.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,"Water supply, sewerage and drainage",Groundwater extracted,595.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,"Water supply, sewerage and drainage",Groundwater extracted,581.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,"Water supply, sewerage and drainage",Groundwater extracted,529.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,"Water supply, sewerage and drainage",Groundwater extracted,510.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,"Water supply, sewerage and drainage",Groundwater extracted,517.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,"Water supply, sewerage and drainage",Groundwater extracted,547.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,"Water supply, sewerage and drainage",Seawater desalination,144.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,"Water supply, sewerage and drainage",Seawater desalination,149.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,"Water supply, sewerage and drainage",Seawater desalination,203.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,"Water supply, sewerage and drainage",Seawater desalination,172.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,"Water supply, sewerage and drainage",Seawater desalination,132.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,"Water supply, sewerage and drainage",Seawater desalination,385.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,"Water supply, sewerage and drainage",Seawater desalination,314.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,"Water supply, sewerage and drainage",Seawater desalination,283.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,"Water supply, sewerage and drainage",Seawater desalination,180.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,"Water supply, sewerage and drainage",Seawater desalination,170.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2014-15,"Water supply, sewerage and drainage",Wastewater collected,2051.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2015-16,"Water supply, sewerage and drainage",Wastewater collected,2014.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2016-17,"Water supply, sewerage and drainage",Wastewater collected,2093.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,"Water supply, sewerage and drainage",Wastewater collected,1952.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2018-19,"Water supply, sewerage and drainage",Wastewater collected,1993.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2019-20,"Water supply, sewerage and drainage",Wastewater collected,2066.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2020-21,"Water supply, sewerage and drainage",Wastewater collected,2168.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2021-22,"Water supply, sewerage and drainage",Wastewater collected,2420.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2022-23,"Water supply, sewerage and drainage",Wastewater collected,2296.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2023-24,"Water supply, sewerage and drainage",Wastewater collected,2249.0,GL,ABS Water Account 2023-24
+national_timeseries,Australia,2017-18,"Agriculture, forestry and fishing",Total water consumption,11600.0,GL,ABS Water Account 2023-24; Survey-based
+national_timeseries,Australia,2018-19,"Agriculture, forestry and fishing",Total water consumption,8976.0,GL,ABS Water Account 2023-24; Survey-based
+national_timeseries,Australia,2019-20,"Agriculture, forestry and fishing",Total water consumption,7109.0,GL,ABS Water Account 2023-24; Survey-based
+national_timeseries,Australia,2020-21,"Agriculture, forestry and fishing",Total water consumption,9712.0,GL,ABS Water Account 2023-24; Survey-based
+national_timeseries,Australia,2021-22,"Agriculture, forestry and fishing",Total water consumption,9973.0,GL,ABS Water Account 2023-24; Survey-based
+national_timeseries,Australia,2022-23,"Agriculture, forestry and fishing",Total water consumption,10261.0,GL,ABS Water Account 2023-24; Experimental satellite-based method (series break)
+national_timeseries,Australia,2023-24,"Agriculture, forestry and fishing",Total water consumption,11760.0,GL,ABS Water Account 2023-24; Experimental satellite-based method (series break)
+state_households,New South Wales,2019-20,Households,Average water use per household,176.81,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,New South Wales,2020-21,Households,Average water use per household,174.01,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,New South Wales,2021-22,Households,Average water use per household,166.66,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,New South Wales,2022-23,Households,Average water use per household,161.99,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,New South Wales,2023-24,Households,Average water use per household,165.73,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,New South Wales,2019-20,Households,Average water price,2.88,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,New South Wales,2020-21,Households,Average water price,2.76,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,New South Wales,2021-22,Households,Average water price,2.84,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,New South Wales,2022-23,Households,Average water price,3.02,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,New South Wales,2023-24,Households,Average water price,3.32,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Victoria,2019-20,Households,Average water use per household,161.7,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Victoria,2020-21,Households,Average water use per household,165.07,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Victoria,2021-22,Households,Average water use per household,161.91,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Victoria,2022-23,Households,Average water use per household,151.53,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Victoria,2023-24,Households,Average water use per household,156.44,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Victoria,2019-20,Households,Average water price,3.37,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Victoria,2020-21,Households,Average water price,3.27,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Victoria,2021-22,Households,Average water price,3.23,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Victoria,2022-23,Households,Average water price,3.29,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Victoria,2023-24,Households,Average water price,3.39,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Queensland,2019-20,Households,Average water use per household,185.37,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Queensland,2020-21,Households,Average water use per household,179.3,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Queensland,2021-22,Households,Average water use per household,167.17,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Queensland,2022-23,Households,Average water use per household,160.48,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Queensland,2023-24,Households,Average water use per household,163.67,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Queensland,2019-20,Households,Average water price,4.65,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Queensland,2020-21,Households,Average water price,4.74,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Queensland,2021-22,Households,Average water price,4.74,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Queensland,2022-23,Households,Average water price,4.81,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Queensland,2023-24,Households,Average water price,4.9,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,South Australia,2019-20,Households,Average water use per household,185.95,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,South Australia,2020-21,Households,Average water use per household,191.41,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,South Australia,2021-22,Households,Average water use per household,189.07,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,South Australia,2022-23,Households,Average water use per household,186.38,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,South Australia,2023-24,Households,Average water use per household,190.21,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,South Australia,2019-20,Households,Average water price,4.43,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,South Australia,2020-21,Households,Average water price,3.59,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,South Australia,2021-22,Households,Average water price,3.57,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,South Australia,2022-23,Households,Average water price,3.79,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,South Australia,2023-24,Households,Average water price,3.79,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Western Australia,2019-20,Households,Average water use per household,238.75,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Western Australia,2020-21,Households,Average water use per household,236.33,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Western Australia,2021-22,Households,Average water use per household,234.78,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Western Australia,2022-23,Households,Average water use per household,223.75,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Western Australia,2023-24,Households,Average water use per household,243.36,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Western Australia,2019-20,Households,Average water price,3.23,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Western Australia,2020-21,Households,Average water price,3.18,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Western Australia,2021-22,Households,Average water price,3.26,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Western Australia,2022-23,Households,Average water price,3.35,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Western Australia,2023-24,Households,Average water price,3.52,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Tasmania,2019-20,Households,Average water use per household,156.95,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Tasmania,2020-21,Households,Average water use per household,145.53,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Tasmania,2021-22,Households,Average water use per household,146.07,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Tasmania,2022-23,Households,Average water use per household,143.33,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Tasmania,2023-24,Households,Average water use per household,155.03,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Tasmania,2019-20,Households,Average water price,2.98,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Tasmania,2020-21,Households,Average water price,2.98,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Tasmania,2021-22,Households,Average water price,2.96,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Tasmania,2022-23,Households,Average water price,3.05,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Tasmania,2023-24,Households,Average water price,3.08,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Northern Territory,2019-20,Households,Average water use per household,330.96,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Northern Territory,2020-21,Households,Average water use per household,321.05,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Northern Territory,2021-22,Households,Average water use per household,333.06,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Northern Territory,2022-23,Households,Average water use per household,308.72,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Northern Territory,2023-24,Households,Average water use per household,329.57,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Northern Territory,2019-20,Households,Average water price,2.81,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Northern Territory,2020-21,Households,Average water price,2.79,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Northern Territory,2021-22,Households,Average water price,2.87,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Northern Territory,2022-23,Households,Average water price,3.0,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Northern Territory,2023-24,Households,Average water price,3.02,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Australian Capital Territory,2019-20,Households,Average water use per household,205.52,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Australian Capital Territory,2020-21,Households,Average water use per household,181.63,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Australian Capital Territory,2021-22,Households,Average water use per household,170.42,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Australian Capital Territory,2022-23,Households,Average water use per household,165.79,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Australian Capital Territory,2023-24,Households,Average water use per household,174.14,kL/household,"ABS Water Account 2023-24; excludes self-extracted water (e.g. rainwater tanks, bores)"
+state_households,Australian Capital Territory,2019-20,Households,Average water price,3.23,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Australian Capital Territory,2020-21,Households,Average water price,3.29,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Australian Capital Territory,2021-22,Households,Average water price,3.44,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Australian Capital Territory,2022-23,Households,Average water price,3.35,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_households,Australian Capital Territory,2023-24,Households,Average water price,3.52,$/kL,"ABS Water Account 2023-24; implicit price (expenditure / volume), not a tariff"
+state_agriculture,New South Wales,2023-24,"Agriculture, forestry and fishing",Total water consumption,4679.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,Victoria,2023-24,"Agriculture, forestry and fishing",Total water consumption,2666.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,Queensland,2023-24,"Agriculture, forestry and fishing",Total water consumption,2546.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,South Australia,2023-24,"Agriculture, forestry and fishing",Total water consumption,898.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,Western Australia,2023-24,"Agriculture, forestry and fishing",Total water consumption,399.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,Tasmania,2023-24,"Agriculture, forestry and fishing",Total water consumption,481.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,Northern Territory,2023-24,"Agriculture, forestry and fishing",Total water consumption,90.0,GL,ABS Water Account 2023-24; experimental satellite method
+state_agriculture,Australian Capital Territory,2023-24,"Agriculture, forestry and fishing",Total water consumption,1.0,GL,ABS Water Account 2023-24; experimental satellite method
+industry_consumption,Australia,2023-24,"Agriculture, forestry and fishing",Water consumption,11760.0,GL,ABS Water Account 2023-24
+industry_consumption,Australia,2023-24,"Agriculture, forestry and fishing",Share of consumption by industry,68.3,%,"Share of 17,604 GL industry total (headline total incl. households is 17,223 GL; ABS reports both)"
+industry_consumption,Australia,2023-24,"Water supply, sewerage and drainage (incl. distribution losses)",Water consumption,3577.0,GL,ABS Water Account 2023-24
+industry_consumption,Australia,2023-24,"Water supply, sewerage and drainage (incl. distribution losses)",Share of consumption by industry,20.8,%,"Share of 17,604 GL industry total (headline total incl. households is 17,223 GL; ABS reports both)"
+industry_consumption,Australia,2023-24,Mining,Water consumption,749.0,GL,ABS Water Account 2023-24
+industry_consumption,Australia,2023-24,Mining,Share of consumption by industry,4.4,%,"Share of 17,604 GL industry total (headline total incl. households is 17,223 GL; ABS reports both)"
+industry_consumption,Australia,2023-24,Manufacturing,Water consumption,472.0,GL,ABS Water Account 2023-24
+industry_consumption,Australia,2023-24,Manufacturing,Share of consumption by industry,2.7,%,"Share of 17,604 GL industry total (headline total incl. households is 17,223 GL; ABS reports both)"
+reuse_water,Australia,2019-20,"Agriculture, forestry and fishing",Reuse water use,91983.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2020-21,"Agriculture, forestry and fishing",Reuse water use,83400.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2021-22,"Agriculture, forestry and fishing",Reuse water use,83311.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2022-23,"Agriculture, forestry and fishing",Reuse water use,76866.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2023-24,"Agriculture, forestry and fishing",Reuse water use,87500.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2019-20,Mining,Reuse water use,2819.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2020-21,Mining,Reuse water use,1852.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2021-22,Mining,Reuse water use,765.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2022-23,Mining,Reuse water use,631.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2023-24,Mining,Reuse water use,1137.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2019-20,Manufacturing,Reuse water use,23174.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2020-21,Manufacturing,Reuse water use,25288.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2021-22,Manufacturing,Reuse water use,25621.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2022-23,Manufacturing,Reuse water use,26082.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2023-24,Manufacturing,Reuse water use,25289.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2019-20,"Electricity, gas, water and waste services",Reuse water use,85537.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2020-21,"Electricity, gas, water and waste services",Reuse water use,89903.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2021-22,"Electricity, gas, water and waste services",Reuse water use,95761.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2022-23,"Electricity, gas, water and waste services",Reuse water use,92774.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2023-24,"Electricity, gas, water and waste services",Reuse water use,106377.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2019-20,Other industries,Reuse water use,89251.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2020-21,Other industries,Reuse water use,82081.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2021-22,Other industries,Reuse water use,76392.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2022-23,Other industries,Reuse water use,73636.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2023-24,Other industries,Reuse water use,79215.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2019-20,Households,Reuse water use,6039.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2020-21,Households,Reuse water use,5858.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2021-22,Households,Reuse water use,6346.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2022-23,Households,Reuse water use,6029.0,ML,ABS Water Account 2023-24
+reuse_water,Australia,2023-24,Households,Reuse water use,6925.0,ML,ABS Water Account 2023-24
+historical_older_editions,Australia,2010-11,Agriculture,Water consumption,7175.0,GL,"ABS 4610.0 2010-11; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2011-12,Agriculture,Water consumption,9418.0,GL,"ABS 4610.0 2011-12; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2011-12,Water supply and sewerage services,Water consumption,2029.0,GL,"ABS 4610.0 2011-12; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2011-12,Households,Water consumption,1715.0,GL,"ABS 4610.0 2011-12; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2011-12,Mining,Water consumption,677.0,GL,"ABS 4610.0 2011-12; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2011-12,Manufacturing,Water consumption,557.0,GL,"ABS 4610.0 2011-12; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2012-13,Agriculture,Water consumption,12780.0,GL,"ABS 4610.0 2012-13; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2012-13,"Water supply, sewerage and drainage",Water consumption,2408.0,GL,"ABS 4610.0 2012-13; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2012-13,Households,Water consumption,1851.0,GL,"ABS 4610.0 2012-13; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2012-13,Mining,Water consumption,614.0,GL,"ABS 4610.0 2012-13; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,2012-13,Manufacturing,Water consumption,530.0,GL,"ABS 4610.0 2012-13; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,1996-97,Households,Water consumption,1829.0,GL,"ABS 4610.0 1993-94 to 1996-97; older methodology, not directly comparable with 2014-15+ series"
+historical_older_editions,Australia,1996-97,All,Net water consumption,22186.0,GL,"ABS 4610.0 1993-94 to 1996-97; older methodology, not directly comparable with 2014-15+ series"
