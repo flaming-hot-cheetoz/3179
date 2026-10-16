@@ -16,7 +16,7 @@
 <body>
   <main class="page">
     <header class="hero">
-      <p class="eyebrow">A MALAYSIAN READER'S GUIDE TO AUSTRALIAN WATER · 2014–15 TO 2023–24</p>
+      <p class="eyebrow">AUSTRALIAN WATER · 2014–15 TO 2023–24</p>
       <h1>Every drop tells<br><span>a bigger story.</span></h1>
       <p class="intro">Australia's recorded water consumption reached a decade high in 2023–24. Follow the water from national demand to household use in each state—and see what changed along the way.</p>
       <div class="hero-rule"><span></span><span></span><span></span></div>
@@ -60,13 +60,23 @@
           <p>Average household use ranged from 155 kL in Tasmania to 330 kL in the Northern Territory. These are state averages—not a prediction for every household.</p>
         </article>
       </div>
-      <p class="audience-note"><strong>For readers in Malaysia:</strong> this is an Australian case study, not a Malaysia–Australia comparison. One kilolitre (kL) equals 1,000 litres; one gigalitre (GL) equals one billion litres. Hover over charts for exact values.</p>
+      <p class="audience-note"><strong>About this story:</strong> this is an Australian case study, not a comparison between countries. One kilolitre (kL) equals 1,000 litres; one gigalitre (GL) equals one billion litres. Hover over a chart for a quick value, or select a mark to pin its details below.</p>
     </section>
 
     <section class="section-heading">
       <p class="eyebrow">THE NATIONAL PICTURE</p>
       <h2>First, the national picture</h2>
       <p>Ten years of consumption, sector use and prices show what changed before we zoom in on households and states.</p>
+    </section>
+
+    <section id="selection-panel" class="selection-panel" aria-labelledby="selection-title" aria-live="polite" aria-atomic="true">
+      <div>
+        <p class="eyebrow">EXPLORE A DATA POINT</p>
+        <h2 id="selection-title">Click a chart mark to pin its details</h2>
+        <p id="selection-message">Select a bar, line point, heatmap cell, pie slice, state or map tile. Keyboard users can Tab to marks and press Enter or Space.</p>
+        <dl id="selection-facts" class="selection-facts" hidden></dl>
+      </div>
+      <button id="clear-selection" class="clear-selection" type="button" disabled>Clear selection</button>
     </section>
 
     <section class="chart-grid" aria-label="Australian water visualisations">
@@ -136,28 +146,28 @@
       <article class="chart-card chart-card-wide map-card">
         <div class="chart-heading">
           <span class="chart-number">08</span>
-          <div><h3>Household use across the map</h3><p>Choropleth · average kL per household · 2023–24</p></div>
+          <div><h3>Household use across the map</h3><p>Choropleth · Mercator projection · average kL per household · 2023–24</p></div>
         </div>
         <div id="chart-choropleth" class="chart"></div>
-        <p class="chart-insight">Colour encodes the average household use in each state. The map is useful for geographic patterns; use the ranking above for precise comparisons.</p>
+        <p class="chart-insight">Mercator keeps directions locally familiar but enlarges areas farther from the equator; colour—not state area—encodes average household use. Use the ranking above for precise comparisons.</p>
       </article>
 
       <article class="chart-card chart-card-wide map-card">
         <div class="chart-heading">
           <span class="chart-number">09</span>
-          <div><h3>What households pay</h3><p>Proportional symbols · average $/kL · 2023–24</p></div>
+          <div><h3>Agricultural water by state</h3><p>Tile cartogram · total water consumption, GL · 2023–24</p></div>
         </div>
-        <div id="chart-symbol-map" class="chart"></div>
-        <p class="chart-insight">Larger circles indicate a higher implicit average water price per kL. The circle marks are positioned approximately within each state; prices are not household tariffs.</p>
+        <div id="chart-tile-map" class="chart"></div>
+        <p class="chart-insight">New South Wales recorded 4,679 GL—about 40% of the 11,760 GL total across the eight listed jurisdictions. Tiles have equal size; colour and labels encode the data, not tile area. GL = billion litres.</p>
       </article>
 
       <article class="chart-card chart-card-wide map-card">
         <div class="chart-heading">
           <span class="chart-number">10</span>
-          <div><h3>Agricultural water by state</h3><p>Tile cartogram · total water consumption, GL · 2023–24</p></div>
+          <div><h3>What households pay</h3><p>Proportional symbols · Mercator projection · average $/kL · 2023–24</p></div>
         </div>
-        <div id="chart-tile-map" class="chart"></div>
-        <p class="chart-insight">New South Wales recorded 4,679 GL—about 40% of the 11,760 GL total across the eight listed jurisdictions. Tiles have equal size; colour and labels encode the data, not tile area. GL = billion litres.</p>
+        <div id="chart-symbol-map" class="chart"></div>
+        <p class="chart-insight">The state outlines use Mercator projection; larger circles indicate a higher implicit average water price per kL. Circle marks are positioned approximately within each state; prices are not household tariffs.</p>
       </article>
     </section>
 
@@ -187,8 +197,8 @@
         <li><a href="charts/06-state-use-price.json">06 · State use and price</a></li>
         <li><a href="charts/07-distributed-water-share.json">07 · Distributed water share</a></li>
         <li><a href="charts/08-household-choropleth.json">08 · Household-use choropleth</a></li>
-        <li><a href="charts/09-household-price-symbol-map.json">09 · Price symbol map</a></li>
-        <li><a href="charts/10-agricultural-tile-map.json">10 · Agricultural tile map</a></li>
+        <li><a href="charts/09-agricultural-tile-map.json">09 · Agricultural tile map</a></li>
+        <li><a href="charts/10-household-price-symbol-map.json">10 · Price symbol map</a></li>
       </ol>
       <p class="source">Use a local web server (such as VS Code Live Server) to preview this page.</p>
     </footer>
