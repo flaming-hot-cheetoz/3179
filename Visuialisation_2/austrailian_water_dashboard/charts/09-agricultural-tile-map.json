@@ -9,7 +9,7 @@
       "encoding": {
         "x": { "field": "tile_column", "type": "ordinal", "axis": null, "scale": { "padding": 0.08 } },
         "y": { "field": "tile_row", "type": "ordinal", "axis": null, "scale": { "padding": 0.08, "reverse": true } },
-        "color": { "field": "agriculture_water_GL", "type": "quantitative", "title": "Agricultural water (GL)", "scale": { "scheme": "tealblues" } },
+        "color": { "field": "agriculture_water_GL", "type": "quantitative", "title": "Agricultural water (GL)", "scale": { "scheme": "blues" } },
         "tooltip": [
           { "field": "region", "type": "nominal", "title": "State or territory" },
           { "field": "agriculture_water_GL", "type": "quantitative", "title": "Water consumption (GL)", "format": ",.0f" }
@@ -17,19 +17,21 @@
       }
     },
     {
-      "mark": { "type": "text", "dy": -10, "fontSize": 12, "fontWeight": 700, "color": "#183b40" },
+      "mark": { "type": "text", "dy": -10, "fontSize": 12, "fontWeight": 700 },
       "encoding": {
         "x": { "field": "tile_column", "type": "ordinal", "axis": null },
         "y": { "field": "tile_row", "type": "ordinal", "axis": null, "scale": { "reverse": true } },
-        "text": { "field": "abbreviation", "type": "nominal" }
+        "text": { "field": "abbreviation", "type": "nominal" },
+        "color": { "condition": { "test": "datum.agriculture_water_GL > 2000", "value": "#fffefa" }, "value": "#18324b" }
       }
     },
     {
-      "mark": { "type": "text", "dy": 12, "fontSize": 12, "color": "#183b40" },
+      "mark": { "type": "text", "dy": 12, "fontSize": 12 },
       "encoding": {
         "x": { "field": "tile_column", "type": "ordinal", "axis": null },
         "y": { "field": "tile_row", "type": "ordinal", "axis": null, "scale": { "reverse": true } },
-        "text": { "field": "agriculture_water_GL", "type": "quantitative", "format": ",.0f" }
+        "text": { "field": "agriculture_water_GL", "type": "quantitative", "format": ",.0f" },
+        "color": { "condition": { "test": "datum.agriculture_water_GL > 2000", "value": "#fffefa" }, "value": "#18324b" }
       }
     }
   ],
@@ -37,6 +39,6 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+    "legend": { "labelColor": "#627789", "titleColor": "#627789", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
   }
 }
