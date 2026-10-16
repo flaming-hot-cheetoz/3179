@@ -7,7 +7,7 @@
   ],
   "width": "container",
   "height": 270,
-  "mark": { "type": "bar", "cornerRadiusEnd": 4, "color": "#238b7e" },
+  "mark": { "type": "bar", "cornerRadiusEnd": 4, "color": "#2878a5" },
   "encoding": {
     "y": { "field": "region", "type": "nominal", "sort": "-x", "title": null, "axis": { "labelLimit": 180 } },
     "x": { "field": "use_kL", "type": "quantitative", "title": "Average household use (kL)" },
@@ -20,6 +20,6 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+    "axis": { "labelColor": "#627789", "titleColor": "#627789", "gridColor": "#e6edf2", "domainColor": "#d5e0e8", "tickColor": "#d5e0e8", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
   }
 }
