@@ -7,7 +7,15 @@
   "encoding": {
     "x": { "field": "household_price_per_kL", "type": "quantitative", "title": "Average water price ($/kL)", "scale": { "zero": false } },
     "y": { "field": "household_use_kL", "type": "quantitative", "title": "Use (kL / household)", "scale": { "zero": false } },
-    "color": { "field": "region", "type": "nominal", "title": "State or territory", "scale": { "scheme": "tableau10" } },
+    "color": {
+      "field": "region",
+      "type": "nominal",
+      "title": "State or territory",
+      "scale": {
+        "domain": ["New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Northern Territory", "Australian Capital Territory"],
+        "range": ["#0072b2", "#56b4e9", "#e69f00", "#8c6bb1", "#3b5b7a", "#cc79a7", "#6b7c93", "#f0c75e"]
+      }
+    },
     "tooltip": [
       { "field": "region", "type": "nominal", "title": "State or territory" },
       { "field": "household_price_per_kL", "type": "quantitative", "title": "Price ($/kL)", "format": ".2f" },
@@ -18,7 +26,7 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
-    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 10, "titleFontSize": 10 }
+    "axis": { "labelColor": "#627789", "titleColor": "#627789", "gridColor": "#e6edf2", "domainColor": "#d5e0e8", "tickColor": "#d5e0e8", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
+    "legend": { "labelColor": "#627789", "titleColor": "#627789", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 10, "titleFontSize": 10 }
   }
 }
