@@ -9,7 +9,7 @@
   "height": 260,
   "layer": [
     {
-      "mark": { "type": "line", "interpolate": "monotone", "strokeWidth": 3, "color": "#238b7e" },
+      "mark": { "type": "line", "interpolate": "monotone", "strokeWidth": 3, "color": "#2878a5" },
       "encoding": {
         "x": { "field": "year", "type": "ordinal", "sort": null, "title": null, "axis": { "labelAngle": 0, "labelOverlap": false } },
         "y": { "field": "consumption", "type": "quantitative", "title": "Water consumption (GL)", "scale": { "domain": [0, 19000] } },
@@ -21,7 +21,7 @@
     },
     {
       "transform": [{ "filter": "datum.year === '2023-24'" }],
-      "mark": { "type": "point", "filled": true, "size": 75, "color": "#e98968" },
+      "mark": { "type": "point", "filled": true, "size": 75, "color": "#e69f00" },
       "encoding": {
         "x": { "field": "year", "type": "ordinal", "sort": null },
         "y": { "field": "consumption", "type": "quantitative" },
@@ -33,7 +33,7 @@
     },
     {
       "transform": [{ "filter": "datum.year === '2023-24'" }],
-      "mark": { "type": "text", "align": "left", "dx": 9, "dy": -10, "fontSize": 11, "fontWeight": 700, "color": "#155d56" },
+      "mark": { "type": "text", "align": "left", "dx": 9, "dy": -10, "fontSize": 11, "fontWeight": 700, "color": "#173a5e" },
       "encoding": {
         "x": { "field": "year", "type": "ordinal", "sort": null },
         "y": { "field": "consumption", "type": "quantitative" },
@@ -45,7 +45,6 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+    "axis": { "labelColor": "#627789", "titleColor": "#627789", "gridColor": "#e6edf2", "domainColor": "#d5e0e8", "tickColor": "#d5e0e8", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
   }
 }
-
