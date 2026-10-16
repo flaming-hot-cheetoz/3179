@@ -17,7 +17,7 @@
   "projection": { "type": "mercator", "center": [134, -27], "scale": 430 },
   "mark": { "type": "geoshape", "stroke": "#fffefa", "strokeWidth": 1.5 },
   "encoding": {
-    "color": { "field": "household_use_kL", "type": "quantitative", "title": "kL / household", "scale": { "scheme": "tealblues" } },
+    "color": { "field": "household_use_kL", "type": "quantitative", "title": "kL / household", "scale": { "scheme": "blues" } },
     "tooltip": [
       { "field": "properties.shapeName", "type": "nominal", "title": "State or territory" },
       { "field": "household_use_kL", "type": "quantitative", "title": "kL per household", "format": ",.1f" }
@@ -27,6 +27,6 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+    "legend": { "labelColor": "#627789", "titleColor": "#627789", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
   }
 }
