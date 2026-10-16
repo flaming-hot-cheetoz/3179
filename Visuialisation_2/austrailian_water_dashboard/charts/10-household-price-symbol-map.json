@@ -17,11 +17,11 @@
           "as": ["household_price_per_kL"]
         }
       ],
-      "mark": { "type": "geoshape", "fill": "#e6eee7", "stroke": "#fffefa", "strokeWidth": 1.5 }
+      "mark": { "type": "geoshape", "fill": "#e5edf2", "stroke": "#fffefa", "strokeWidth": 1.5 }
     },
     {
       "data": { "url": "data/state-map-values.csv", "format": { "type": "csv" } },
-      "mark": { "type": "circle", "opacity": 0.82, "color": "#e98968", "stroke": "#fffefa", "strokeWidth": 1.5 },
+      "mark": { "type": "circle", "opacity": 0.88, "color": "#e69f00", "stroke": "#fffefa", "strokeWidth": 1.5 },
       "encoding": {
         "longitude": { "field": "longitude", "type": "quantitative" },
         "latitude": { "field": "latitude", "type": "quantitative" },
@@ -43,6 +43,6 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+    "legend": { "labelColor": "#627789", "titleColor": "#627789", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
   }
 }
