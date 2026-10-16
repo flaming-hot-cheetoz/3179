@@ -15,7 +15,7 @@
       "type": "nominal",
       "title": "Sector",
       "sort": ["Agriculture, forestry and fishing", "Households", "Other industries", "Manufacturing", "Mining"],
-      "scale": { "domain": ["Agriculture, forestry and fishing", "Households", "Other industries", "Manufacturing", "Mining"], "range": ["#155d56", "#238b7e", "#86bfa1", "#e98968", "#6d9da6"] }
+      "scale": { "domain": ["Agriculture, forestry and fishing", "Households", "Other industries", "Manufacturing", "Mining"], "range": ["#173a5e", "#56b4e9", "#e69f00", "#8c6bb1", "#6b7c93"] }
     },
     "tooltip": [
       { "field": "sector", "type": "nominal", "title": "Sector" },
@@ -26,6 +26,6 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 10, "titleFontSize": 11 }
+    "legend": { "labelColor": "#627789", "titleColor": "#627789", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 10, "titleFontSize": 11 }
   }
 }
