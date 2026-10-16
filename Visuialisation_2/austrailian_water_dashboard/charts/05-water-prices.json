@@ -11,7 +11,7 @@
   "encoding": {
     "x": { "field": "year", "type": "ordinal", "sort": null, "title": null, "axis": { "labelAngle": 0, "labelOverlap": false } },
     "y": { "field": "price_per_kL", "type": "quantitative", "title": "Average price ($/kL)", "scale": { "zero": false } },
-    "color": { "field": "sector", "type": "nominal", "title": null, "scale": { "domain": ["Households", "Industry"], "range": ["#238b7e", "#e98968"] } },
+    "color": { "field": "sector", "type": "nominal", "title": null, "scale": { "domain": ["Households", "Industry"], "range": ["#2878a5", "#e69f00"] } },
     "tooltip": [
       { "field": "year", "type": "ordinal", "title": "Year" },
       { "field": "sector", "type": "nominal", "title": "Sector" },
@@ -22,7 +22,7 @@
     "background": null,
     "font": "DM Sans",
     "view": { "stroke": null },
-    "axis": { "labelColor": "#647b79", "titleColor": "#647b79", "gridColor": "#e9eeea", "domainColor": "#d9e2dc", "tickColor": "#d9e2dc", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
-    "legend": { "labelColor": "#647b79", "titleColor": "#647b79", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
+    "axis": { "labelColor": "#627789", "titleColor": "#627789", "gridColor": "#e6edf2", "domainColor": "#d5e0e8", "tickColor": "#d5e0e8", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 },
+    "legend": { "labelColor": "#627789", "titleColor": "#627789", "labelFont": "DM Sans", "titleFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 11 }
   }
 }
